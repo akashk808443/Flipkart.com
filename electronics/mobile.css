@@ -1,0 +1,67 @@
+
+
+
+/* filters  */
+
+h5 {
+    font-size: medium;
+    color: rgb(99, 99, 99);
+    margin-left: 10px;
+}
+
+.filterWr {
+    font-size: medium;
+    color: rgb(75, 75, 75);
+
+}
+
+select {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+
+#FilterDiv {
+    /* border: 1px solid; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin: 10px 10px 0px 10px;
+    width: 20%;
+    padding: 5px 10px;
+}
+
+#Filterfst {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+#Filterfst>h3 {
+    padding: 5px;
+}
+
+#clearAll {
+    border: none;
+    color: #2874f0;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#FilterDiv>div {
+    margin: 2% 0%;
+    padding-bottom: 25%;
+
+}
+#filtfrth{
+    justify-content: space-around;
+}
+
+#filterscnd {
+
+    justify-content: space-around;
+}
+#filterrd{
+    justify-content: space-around;
+}
