@@ -1,10 +1,9 @@
-function navbar(){
-    return`<div id="navbar">
-    <div class="logo">
-      <a href=""
-        ><img
-          src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk-plus_3b0baa.png"
-      /></a>
+function navbar() {
+  return `<div id="navbar">
+    <div>
+      <img
+        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk-plus_3b0baa.png"
+      />
     </div>
     <br />
     <div class="search">
@@ -16,7 +15,9 @@ function navbar(){
       <i class="fa-solid fa-magnifying-glass" id="inputSearch"></i>
     </div>
     <br />
-    <a href=""><button class="loginbtn">Login</button></a>
+    <a href="../signinSignup/Login.html"
+      ><button class="loginbtn">Login</button></a
+    >
     <a href="" class="moretab"><p class="text">Become a Seller</p></a>
     <span>
       <a href="" class="moretab">More</a>

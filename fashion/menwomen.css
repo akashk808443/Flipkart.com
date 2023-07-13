@@ -1,0 +1,24 @@
+#parent{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+#fashionDiv{
+    display: grid;
+    width:80%;
+    text-align: center;
+    padding: 20px 2px 2px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,1fr);
+}
+#fashionDiv img{
+    width:100px;
+    height:150px
+}
+#fashionDiv>div{
+    width:200px;
+    height:240px;
+    margin-left: 10px;
+
+}

@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../electronics/mobile.css" />
+    <link rel="stylesheet" href="../mobiles/mobile.css" />
+    <link rel="stylesheet" href="../maincss/main.css" />
     <link rel="stylesheet" href="../home/index.css" />
-    <title>Electronics</title>
+    <title>Mobiles</title>
   </head>
   <body>
     <div id="nav"></div>
@@ -74,17 +75,11 @@
             <option value="price">HIGH-TO-LOW</option>
           </select>
         </div>
-        <hr />
       </div>
+      <div id="electronicDiv"></div>
     </div>
+
     <div id="foot"></div>
   </body>
 </html>
-<script type="module">
-  import navbar from "../navbar/navbar.js";
-  let nav = document.querySelector("#nav");
-  nav.innerHTML = navbar();
-  import { footer } from "../footer/footer.js";
-  let foot = document.querySelector("#foot");
-  foot.innerHTML = footer();
-</script>
+<script src="../mobiles/mobile.js" type="module"></script>
