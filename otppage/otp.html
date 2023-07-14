@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../signinSignup/loginsignup.css" />
     <link rel="stylesheet" href="../maincss/main.css" />
     <link rel="stylesheet" href="../home/index.css" />
+    <link rel="stylesheet" href="../otppage/otp.css" />
     <title>Login</title>
   </head>
   <body>
@@ -20,12 +21,12 @@
       </div>
       <div id="page2">
         <form id="form">
-          <input
-            autocomplete="off"
-            type="password"
-            id="input"
-            placeholder="Enter OTP"
-          />
+         <div id="passdiv">
+          <input type="password" id="first"/>
+          <input type="password" id="second"/>
+          <input type="password" id="third"/>
+          <input type="password" id="fourth"/>
+         </div>
           <br />
           <br />
           <p>
@@ -33,7 +34,7 @@
             Policy.
           </p>
           <br />
-          <input type="submit" id="submit" value="submit OTP" />
+          <input type="submit" id="submit" value="Verify OTP" />
         </form>
       </div>
     </div>

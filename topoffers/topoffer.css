@@ -14,11 +14,13 @@
 }
 #topofferDiv img{
     width:100px;
-    height:150px
+    height:100px
+}
+#topofferDiv p{
+    font-size: smaller;
 }
 #topofferDiv>div{
     width:200px;
     height:240px;
-    margin-left: 10px;
 
 }

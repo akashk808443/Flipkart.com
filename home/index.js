@@ -1,3 +1,11 @@
+
+import navbar from "../navbar/navbar.js";
+let nav = document.querySelector("#navbar");
+nav.innerHTML = navbar();
+import { footer} from "../footer/footer.js";
+let foot = document.querySelector("#footer");
+foot.innerHTML = footer();
+
 let images = [
   "https://cdn.fcglcdn.com/brainbees/images/cattemplate/1920_446_desktop_summer_200323_01_new.jpg",
   "https://cdn.fcglcdn.com/brainbees/images/cattemplate//summer_desktop_210323_96.jpg",

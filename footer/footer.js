@@ -1,5 +1,5 @@
 function footer() {
-  return `<footer id="footer">
+  return `
     <div id="row1">
       <div class="footerDiv">
         <h6>ABOUT</h6>
@@ -98,13 +98,11 @@ function footer() {
         />
       </div>
     </div>
-  </footer>
   `;
 }
 
 function filter() {
-  return `<div id="container">
-  <div id="FilterDiv">
+  return `
     <div id="filerTest">
       <div id="Filterfst">
         <h3 class="filterWr">Filter</h3>
@@ -168,9 +166,6 @@ function filter() {
         <option value="price">HIGH-TO-LOW</option>
       </select>
     </div>
-    <hr />
-  </div>
-</div>
   `;
 }
 export { footer, filter };

@@ -1,6 +1,6 @@
 function navbar() {
-  return `<div id="navbar">
-    <div>
+  return `
+    <div onclick="window.location.href='../home/index.html'">
       <img
         src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk-plus_3b0baa.png"
       />
@@ -35,7 +35,6 @@ function navbar() {
         <hr />
       </div>
     </span>
-  </div>
-    `
+    `;
 }
 export default navbar;
